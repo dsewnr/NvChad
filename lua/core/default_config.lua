@@ -12,6 +12,7 @@ M.options = {
    ruler = false,
    hidden = true,
    ignorecase = true,
+   smartcase = true,
    mapleader = " ",
    mouse = "a",
    number = true,
@@ -71,6 +72,7 @@ M.plugins = {
       vim_matchup = true, -- % operator enhancements
       cmp = true,
       nvimtree = true,
+      autopairs = true,
    },
    options = {
       lspconfig = {
