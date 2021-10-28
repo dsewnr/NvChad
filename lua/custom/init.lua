@@ -80,6 +80,10 @@ hooks.add("install_plugins", function(use)
    }
 
    use {
+     "github/copilot.vim",
+   }
+
+   use {
       "jose-elias-alvarez/null-ls.nvim",
       after = "nvim-lspconfig",
       config = function()
