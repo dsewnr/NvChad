@@ -26,6 +26,7 @@ cmp.setup {
             nvim_lsp = "[LSP]",
             nvim_lua = "[Lua]",
             buffer = "[BUF]",
+            cmp_tabnine = "[TN]",
 	    path = "[Path]",
          })[entry.source.name]
 
@@ -68,5 +69,6 @@ cmp.setup {
       { name = "buffer" },
       { name = "nvim_lua" },
       { name = "path" },
+      { name = "cmp_tabnine" },
    },
 }
