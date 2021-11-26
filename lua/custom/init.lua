@@ -54,12 +54,6 @@ end)
 
 hooks.add("install_plugins", function(use)
    use {
-     'tzachar/cmp-tabnine',
-     after = "nvim-cmp",
-     run='./install.sh',
-   }
-
-   use {
      "p00f/nvim-ts-rainbow",
      after = "nvim-treesitter",
    }
