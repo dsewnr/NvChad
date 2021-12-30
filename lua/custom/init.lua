@@ -60,6 +60,11 @@ hooks.add("install_plugins", function(use)
    }
 
    use {
+     'mrjones2014/dash.nvim',
+     run = 'make install', 
+   }
+
+   use {
      "p00f/nvim-ts-rainbow",
      after = "nvim-treesitter",
    }
